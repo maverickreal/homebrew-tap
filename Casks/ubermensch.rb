@@ -1,6 +1,6 @@
 cask "ubermensch" do
-  version "1.0.3"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  version "1.0.5"
+  sha256 "1ae8f911df15c891abd404612d5c07f5f560f70b437e8a4f84eee2b1cd68979d"
 
   url "https://github.com/maverickreal/UberMensch/releases/download/v#{version}/UberMensch_#{version}_aarch64.dmg"
   name "UberMensch"
