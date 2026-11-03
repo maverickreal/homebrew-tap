@@ -8,8 +8,8 @@ cask "ubermensch" do
   homepage "https://github.com/maverickreal/UberMensch"
 
   # Apple Silicon target
+  depends_on macos: :sonoma
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
 
   app "UberMensch.app"
 
